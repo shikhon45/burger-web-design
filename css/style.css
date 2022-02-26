@@ -1,0 +1,344 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Bebas Neue', cursive;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* header css code start */
+
+.header{
+    width: 100%;
+    padding: 40px 0px;
+    background: url(../images/bg-cl.png) top center no-repeat;
+    background-size: cover;
+}
+.main-menu{
+    width: 100%;
+    position: relative;
+}
+.header .main-menu .bg-light{
+    background: transparent !important;
+}
+.header .main-menu .logo img{
+    width: 40%;
+}
+.header .main-menu .address img{
+    width: 25px;
+    position: absolute;
+    right: 308px;
+    bottom: 59px;
+}
+.header .main-menu .address p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #71522b;
+    margin: 0px;
+    position: absolute;
+    right: 148px;
+    margin: 0px;
+    top: 8px;
+}
+.navbar-light .navbar-nav .nav-link.active{
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 300;
+	color: #71522b;
+    letter-spacing: 3px;
+}
+.navbar-light .navbar-nav .nav-link {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 300;
+	color: #71522b;
+    letter-spacing: 3px;
+	margin: 0px 0px 0px 30px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #000;
+}
+.header .main-menu .navbar-nav{
+    margin: -25px 0px 0px;
+}
+.banner{
+    width: 100%;
+}
+.banner-caption {
+	text-align: left;
+	width: 100%;
+	margin: 155px 0px 0px;
+}
+.banner .img-width {
+	width: 115%;
+}
+.banner .banner-caption h5 {
+	font-size: 18px;
+	line-height: 140px;
+	font-weight: 500;
+	color: #71522b;
+    letter-spacing: 1px;
+}
+.banner .banner-caption h1 {
+    font-family: 'Bebas Neue', cursive;
+	font-size: 170px;
+	line-height: 55px;
+	font-weight: 700;
+	color: #3d2514;
+	letter-spacing: 5px;
+}
+.banner .banner-caption h1 span {
+    font-family: 'Bebas Neue', cursive;
+	font-size: 60px;
+	line-height: 70px;
+	font-weight: 700;
+	color: #3d2514;
+	letter-spacing: 2px;
+    margin: 0px 0px 0px 7px;
+}
+
+/* header css code end */
+
+/* /* feature css code start */
+
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.feature .img{
+    width: 100%;
+    position: relative;
+}
+.feature .text {
+	position: absolute;
+	top: 65px;
+	left: 30px;
+	color: #fff;
+}
+.feature .text h5{
+	font-size: 18px;
+	line-height: 5px;
+	font-weight: 500;
+}
+.feature .text h2{
+	font-size: 34px;
+	line-height: 44px;
+	font-weight: 400;
+}
+.feature .text .h2 {
+	line-height: 32px;
+}
+.feature .img-fluid{
+    margin: 33px 0px 0px;
+}
+
+/* feature css code end */
+
+/* choose css code start */
+.choose{
+    width: 100%;
+    padding: 0px 0px;
+}
+.title{
+    text-align: center;
+}
+.choose .title h5 {
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 500;
+	color: #3d2514;
+	border: 1px solid #3d2514;
+	background: #f8c335;
+	width: 185px;
+	text-align: center;
+    display: inline-block;
+}
+.choose .title h2{
+    font-family: 'Bebas Neue', cursive;
+	font-size: 55px;
+	line-height: 65px;
+	font-weight: 600;
+	color: #3d2514;
+	letter-spacing: 1px;
+}
+.choose .title p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #3d2514;
+    margin: 0px;
+}
+.choose .burger-buy{
+    width: 90%;
+    padding: 40px 20px;
+    text-align: center;
+    margin: 55px 0px 0px;
+}
+.choose .burger-buy .img-fluid {
+	width: 295px;
+	height: 250px;
+}
+.choose .burger-buy h2 {
+	font-size: 36px;
+	line-height: 46px;
+	font-weight: 500;
+	color: #71522b;
+	margin: 70px 0px 0px;
+}
+.choose .burger-buy p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #71522b;
+    margin: 0px;
+}
+.choose .burger-buy button {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 500;
+	color: #fff;
+	background: #ea1212;
+	padding: 10px 35px;
+	margin: 20px 0px 0px;
+}
+.choose .burger-buy button:hover{
+    background: transparent;
+    color: #71522b;
+    border: 1px solid #71522b;
+}
+
+/* choose css code end */
+
+/* global css code start */
+
+.title h5 {
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 500;
+	color: #3d2514;
+	text-align: center;
+}
+.title h2{
+    font-family: 'Bebas Neue', cursive;
+	font-size: 55px;
+	line-height: 65px;
+	font-weight: 600;
+	color: #3d2514;
+	letter-spacing: 1px;
+}
+.title p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #3d2514;
+    margin: 0px;
+}
+
+/* global css code end */
+
+/* discover css code start */
+
+.discover{
+    width: 100%;
+    padding: 60px 0px;
+}
+.discover .box-shadow {
+	display: inherit;
+    background: #fff;
+    box-shadow: 5px 15px 15px 2px #dedede;
+    position: relative;
+}
+.discover .box-shadow .title {
+	position: absolute;
+	top: 30px;
+	left: 35px;
+	padding: 20px;
+}
+.discover .box-shadow .title h5 {
+	font-size: 18px;
+    line-height: 5px;
+	font-weight: 500;
+	color: #3d2514;
+	width: 185px;
+    text-align: left;
+    font-family: 'Bebas Neue', cursive;
+}
+.discover .box-shadow .title h2{
+    font-family: 'Bebas Neue', cursive;
+	font-size: 55px;
+	line-height: 65px;
+	font-weight: 700;
+	color: #3d2514;
+	letter-spacing: 1px; 
+    margin: 0px auto;
+    text-align: left;
+}
+.discover .box-shadow .title p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #3d2514;
+    width: 27%;
+    text-align: justify;
+}
+
+/* discover css code end */
+
+/* reservation css code start */
+
+.reservation{
+	width: 100%;
+	padding: 60px 20px;
+	background: url(../images/r-bg.png) top center no-repeat;
+	background-size: cover;
+}
+.reservation .title{
+	text-align: center;
+	padding: 20px;
+}
+.reservation .title h5{
+	font-size: 18px;
+    line-height: 5px;
+	font-weight: 500;
+	color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+}
+.reservation .title h2{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 55px;
+	line-height: 65px;
+	font-weight: 700;
+	color: #3d2514;
+	letter-spacing: 1px; 
+}
+.reservation .form{
+	padding: 20px 140px;
+}
+.reservation .form .form-control{
+	margin: 20px 0px 0px;
+	padding: 12px 25px;
+}
+.reservation .form .btn-light{
+	padding: 11px 166px;
+	margin: 15px 0px 0px;
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 500;
+	color: #fff;
+	background: red;
+}
+.reservation .form .btn-light:hover{
+	background: transparent;
+	color: #3d2514;
+	border: 1px solid #3d2514;
+}
+
+/* reservation css code end */
